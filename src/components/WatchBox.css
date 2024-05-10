@@ -1,0 +1,29 @@
+.watch-box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.close-movie-btn {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.3rem;
+  text-align: center;
+  font-size: 1rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  border: none;
+  color: black;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0 0 3px #000000;
+  /* vertical-align: middle; */
+}
+
+.close-movie-btn:hover {
+  transform: scale(110%);
+}

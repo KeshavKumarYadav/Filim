@@ -1,0 +1,28 @@
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 0.5rem;
+}
+
+.star {
+  width: 1.5rem;
+  fill: goldenrod;
+}
+
+.star-filled {
+  width: 1.5rem;
+  stroke: goldenrod;
+  fill: goldenrod;
+}
+
+.num-star {
+  width: 0.5rem;
+  line-height: 0;
+  font-weight: 600;
+}
+
+span {
+  display: inline-block;
+}

@@ -1,0 +1,42 @@
+.watched-summary {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.2rem; */
+  padding: 0.6rem;
+  background: #305642;
+  margin-top: -1.1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding-left: 1.3rem;
+  z-index: 20;
+}
+
+.watched-summary h3 {
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.summary-details {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1.2rem;
+  /* margin-top: 0.5rem; */
+}
+
+.summary-detail-item {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.summary-detail-item strong {
+  font-size: 0.9rem;
+}
+
+.summary-details p {
+  text-wrap: nowrap;
+  font-size: 0.75rem;
+  margin: 0;
+}

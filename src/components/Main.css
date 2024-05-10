@@ -1,0 +1,7 @@
+.main {
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem 0.8rem;
+}

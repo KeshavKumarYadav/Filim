@@ -1,0 +1,40 @@
+.movie {
+  color: white;
+  list-style: none;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  border-bottom: 1px solid #132419;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+.movie:hover {
+  background: #305642;
+}
+
+.poster-container {
+  width: 2.5rem;
+  height: 4rem;
+  margin-left: 0.8rem;
+  /* background: #858484; */
+}
+
+img {
+  /* height: 100%;
+    width: 100%; */
+
+  width: 2.5rem;
+  height: 4rem;
+}
+
+.movie-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.1rem;
+}
+
+.movie-year {
+  font-size: 0.8rem;
+  margin: 0.1rem;
+}

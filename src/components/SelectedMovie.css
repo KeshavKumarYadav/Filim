@@ -1,0 +1,66 @@
+.movie-details {
+  display: flex;
+  gap: 1rem;
+  background: #305642;
+  /* min-height: 8rem; */
+  align-items: center;
+  margin-top: -1.1rem;
+}
+
+.movie-details p,
+h3 {
+  margin: 0.1rem 0;
+  padding: 0.1rem 0;
+}
+
+.movie-details img {
+  display: block;
+  height: 10rem;
+  width: 6.5rem;
+}
+
+.movie-details-sub-details h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.movie-details-sub-details p {
+  font-size: 0.8rem;
+}
+
+.movie-details-sub-details span {
+  margin-right: 0.5rem;
+}
+
+.movie-description {
+  padding: 1rem;
+}
+
+.movie-description p {
+  font-size: 0.8rem;
+}
+
+.rate {
+  background: #305642;
+  margin: 1.5rem 1rem 0 1rem;
+  border-radius: 0.3rem;
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+
+.add-to-watched-list-btn {
+  border: none;
+  background: #132419;
+  color: white;
+  font-size: 0.8rem;
+  width: 90%;
+  padding: 0.5rem 1.5rem;
+  text-wrap: nowrap;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.add-to-watched-list-btn:hover {
+  background: rgb(19, 36, 25, 0.8);
+}
